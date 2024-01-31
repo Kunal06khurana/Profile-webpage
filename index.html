@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+<head>
+<style>
+*{ margin:0;
+padding:0
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+body{
+    background-color:black;
+    }
+#header{ background-image:url("kkk3.jpeg");
+	background-repeat:no-repeat;
+	background-position:right;
+	width:100%;
+	height:100vh;}
+.container{
+	padding:10px 10%;
+	}
+nav{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.logo{
+	width:140px;
+}
+nav ul li{
+	display:inline-block;
+	list-style:none;
+	margin:10px 20px;
+}
+nav ul li a{
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+	position:relative;
+}
+nav ul li a::after{
+	content: '';
+	width:0;
+	height:3px;
+	background:#ff004f;
+	position:absolute;
+	left:0;
+	bottom:-6px;
+	transition:0.5s;
+}
+nav ul li a:hover::after{
+	width:100%;
+}
+.header-text{
+	margin-top:20%;
+	font-size:30px;
+color:white;
+}
+.header-text h1{
+	font-size:60px;	
+	margin-top:20px;
+}
+	
+<!--.............................about............................-->
+#about{
+	padding:80px 0;
+	color:#ababab;
+}
+
+.row{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.about-col-1{
+	flex-basis:35%;
+	
+}
+.about-col-1 img{
+	width:100%;
+}
+.about-col-2{
+	flex-basis:60%;
+	color:white;
+}
+.sub-title{
+	font-size:60px;
+	font-weight:600;
+	color:white;
+}
+.education-col{
+	color:white;
+}
+.education-col ul li{
+	list-style:none;
+	margin:10px 0;
+}
+.education-col ul li span{
+	color:#b54769;
+	font-size:14px;
+}
+.skills-col{
+	color:white;
+}
+.skills-col ul li{
+	list-style:none;
+	margin:10px 0;
+}
+.skills-col ul li span{
+	color:#b54769;
+	font-size:14px;
+}
+.hobbies-col{
+	color:white;
+}
+.hobbies-col ul li{
+	list-style:none;
+	margin:10px 0;
+}
+
+
+	
+
+</style>
+
+
+
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src="kkkk5.png" class="logo">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#hobbies">Hobbies</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="header-text">
+			<p>Btech-IT Student</p>
+			<h1>Hii,I am <span style="color:pink">Kunal</span><br> from IIIT ALLAHABAD</h1>
+		</div>
+	</div>
+
+</div>
+<!--........................................about.....................-->
+
+
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="kk12.png">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About me</h1>
+				<p>Kunal, hailing from the culturally rich town of Kaithal in Haryana, embodies a unique blend of traditional values and contemporary aspirations. Endowed with an innate curiosity and a thirst for knowledge, he navigates life with a commendable sense of purpose. Kunal is a person of discerning taste, his refined preferences reflecting a keen appreciation for the finer things in life.Rooted in the vibrant tapestry of Kaithal, Kunal draws strength from the cultural heritage of his hometown, seamlessly blending tradition with modernity. His identity is a testament to the harmonious coexistence of the old and the new, creating a narrative that resonates with authenticity and depth.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ... (previous code) ... -->
+
+    <div id="education">
+        <div class="container">
+            <h1 class="sub-title">Education</h1><br><br>
+                <div class="education-col">
+		<ul>
+		<li><span>2020-Class-X</span><br>I completed my X class from O.S,D.A.V.Public School Kaithal</li><br>
+                <li><span>2022-ClassXII</span><br>I completed my XII class from O.S,D.A.V.Public School Kaithal</li><br>
+                <li><span>Graduation_Year-2027</span><br>Currently I am pursuing Btech degree In IT Branch In IIIT Allahabad</li><br><br><br>
+                </div>
+                <!-- Add more education-col divs for additional education details -->
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1><br><br>
+	    <div class="skills-col">
+            <ul>
+                <li><span>Programming Languages</span><br> C,C++,Python</li><br>
+                <li><span>Web Development</span><br> HTML, CSS, JavaScript</li><br>
+                <li><span>Database Management</span><br> MySQL</li><br<br><br>
+                <!-- Add more skills as needed -->
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="hobbies">
+        <div class="container">
+         <h1 class="sub-title">Hobbies</h1><br><br>
+        <div class="row">
+           <div class="hobbies-col-1">
+            <ul>
+                <li>Drawing,Painting,Rangoli Making</li><br>
+                <li>Cooking</li><br>
+                <li>Watching movies</li><br>
+            </ul>
+	    </div>
+	    <div class="hobbies-col-2">
+	    	<p class="hobbies_active_link">Painting</p>
+	    	<p 
+	    </div>
+	</div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
