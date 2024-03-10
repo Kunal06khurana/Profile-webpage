@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+    <section class="about">
+        <h3 style="color:aliceblue;margin-bottom:45px;">I'm Kunal Khurana and <span>Web Developer</span></h3>
+        <p style="color:whitesmoke">Kunal, hailing from the culturally rich town of Kaithal in Haryana, embodies a unique blend of traditional values and contemporary aspirations. Endowed with an innate curiosity and a thirst for knowledge, he navigates life with a commendable sense of purpose. Kunal is a person of discerning taste, his refined preferences reflecting a keen appreciation for the finer things in life.Rooted in the vibrant tapestry of Kaithal, Kunal draws strength from the cultural heritage of his hometown, seamlessly blending tradition with modernity. His identity is a testament to the harmonious coexistence of the old and the new, creating a narrative that resonates with authenticity and depth.
+            <br><br>With 2 months of experience in Web development I've had the opportunity to make various projects assigned by our faculty.I am deeply passionate about creating and designing websites.I want to become full stack developer .I am dedicated to Web development and I'm always eager to learn new things and grow in this field .
+    </section>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header=document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);  
+        })
+    </script>
+</body>
+</html>
